@@ -9,13 +9,41 @@ header
     display: flex;
     justify-content: center;
 }
-.blé{
-    height: 10px;
-    width: 10px;
+.ble{
+    height: 25px;
+    width: 25px;
 }
-#resourcesbar ul#resources li {
-    height: 47px;
-    width: 64px;
-    text-align: center;
+.or{
+    height: 25px;
+    width: 25px;
+}
+.troupe{
+    height: 25px;
+    width: 25px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 100%;
+    max-width: 400px;
+}
+  
+  .container .button {
+    top: 50%;
+    left: 50px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
     cursor: pointer;
-}
+    border-radius: 5px;
+    text-align: center;
+  }
+  .container .button:hover {
+    background-color: black;
+    color: white;
+  }
