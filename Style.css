@@ -13,9 +13,39 @@ header
     height: 10px;
     width: 10px;
 }
-#resourcesbar ul#resources li {
-    height: 47px;
-    width: 64px;
-    text-align: center;
-    cursor: pointer;
+.or{
+    height: 10px;
+    width: 10px;
 }
+.troupe{
+    height: 10px;
+    width: 10px;
+}
+.container {
+    width: 100%;
+    max-width: 400px;
+}
+  
+  .container .button {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .bouton{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .container .button:hover {
+    background-color: black;
+    color: white;
+  }
