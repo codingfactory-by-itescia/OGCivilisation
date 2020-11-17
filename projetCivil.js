@@ -1,1 +1,5 @@
-window.location.href="https://www.youtube.com/watch?v=fC7oUOUEEi4"
+document.getElementById("city").addEventListener("click", inventaireClick);
+
+document.getElementById("map").addEventListener("click", mapClick);
+
+document.getElementById("inventory").addEventListener("click", inventoryClick);
