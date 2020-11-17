@@ -13,3 +13,9 @@ header
     height: 10px;
     width: 10px;
 }
+#resourcesbar ul#resources li {
+    height: 47px;
+    width: 64px;
+    text-align: center;
+    cursor: pointer;
+}

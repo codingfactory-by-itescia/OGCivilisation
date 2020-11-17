@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" type="text/css" href="Projet-Civil.css"/>
+        <link rel="stylesheet" type="text/css" href="Style.css"/>
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,7 +11,23 @@
     </head>
     <body>
         <header>
-            <div id="Blé">L</div>
+            <div id="resourcesbar" class></div>
+            <li id="Blé-box" class="Blé tooltipHTML tpd-hideOnClickOutside"
+            title="Blé|<table class="resourceTooltip">
+            <tr>
+                <th>Disponible</th>
+                <td><span class="">0</span></td>    
+            </tr>
+            <tr>
+            <th>Capacité de stockage:</th>
+            <td><span class="">10000</span></td>
+            </tr>
+            <th>Production actuelle:</th>
+            <td><span class="undermark">+1</span></td>
+            <span class="value">
+                <span id="resources_blé" data-raw="0000" class>0</span>
+            </span>
+            </li>
             <div id="Or">L</div>
             <div id="Unités">L</div>
         </header>
@@ -19,6 +35,36 @@
         <footer>
 
         </footer>
+        <li>
+        <a class="menubutton" href="#">
+        <span class="textlabel">Ressources</span>
+    </a>
+</li>
+<li>
+    <a class="menubutton" href="#">
+    <span class="textlabel">Batiments</span>
+</a>
+</li>
+<li>
+    <a class="menubutton" href="#">
+    <span class="textlabel">Troupes</span>
+</a>
+</li>
+<li>
+    <a class="menubutton" href="#">
+    <span class="textlabel">Défense</span>
+</a>
+</li>
+<li>
+    <a class="menubutton" href="#">
+    <span class="textlabel">Recherche</span>
+</a>
+</li>
+<li>
+    <a class="menubutton" href="#">
+    <span class="textlabel">Alliance</span>
+</a>
+</li>
     </body>
     <script src="Projet-Civil.js"></script>
 </html>
