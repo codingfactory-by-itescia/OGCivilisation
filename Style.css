@@ -29,11 +29,10 @@ header
     max-width: 400px;
 }
   
-  .container .button {
+.container .button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     background-color: #a33535;
     color: black;
     font-size: 16px;
@@ -42,8 +41,23 @@ header
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
-  }
-  .container .button:hover {
+}
+.container .button:hover {
     background-color: rgb(250, 218, 74);
     color: rgb(0, 0, 0);
-  }
+}
+.jeu{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: #a33535;
+    color: black;
+    font-size: 16px;
+    padding: 16px 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}

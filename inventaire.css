@@ -3,3 +3,34 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 14%;
+    max-width: 400px;
+}
+  
+  .container .button {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #a33535;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .container .button:hover {
+    background-color: rgb(250, 218, 74);
+    color: rgb(0, 0, 0);
+  }
+
+#GameScreen {
+    background-color: aqua;
+    display: flex;
+}

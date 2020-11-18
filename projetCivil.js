@@ -1,10 +1,10 @@
-document.getElementById("city").addEventListener("click", cityClick);
+let cityClick = document.getElementById("city").addEventListener("click", clickCity);
 
-document.getElementById("map").addEventListener("click", mapClick);
+let mapClick = document.getElementById("map").addEventListener("click", mapClick);
 
-document.getElementById("inventory").addEventListener("click", inventoryClick);
+let inventoryClick = document.getElementById("inventory").addEventListener("click", inventoryClick);
 
-cityClick
+function clickCity()
 {
     console.log("Ville");
 }
