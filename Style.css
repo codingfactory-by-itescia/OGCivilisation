@@ -51,7 +51,7 @@ header
 /*écran de jeu*/
 .GameScreen{
     position: absolute;
-    top: 45%;
+    top: 48%;
     left: 45%;
     transform: translate(-50%, -50%);
     background-color: #a33535;
