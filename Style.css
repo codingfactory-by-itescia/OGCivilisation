@@ -7,7 +7,7 @@ body
 header
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 .ble{
     height: 50px;
@@ -46,12 +46,10 @@ header
     background-color: rgb(250, 218, 74);
     color: rgb(0, 0, 0);
 }
-.jeu{
-    width: 600px;
-    height: 400px;
+.GameScreen{
     position: absolute;
-    top: 40%;
-    left: 40%;
+    top: 45%;
+    left: 45%;
     transform: translate(-50%, -50%);
     background-color: #a33535;
     color: black;
@@ -60,4 +58,8 @@ header
     border: none;
     border-radius: 5px;
     text-align: center;
+}
+.GameScreen .jeu{
+    width: 650px;
+    height: 450px;
 }

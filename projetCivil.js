@@ -1,18 +1,7 @@
-let cityClick = document.getElementById("city").addEventListener("click", clickCity);
+let ble = document.getElementById("ble")
+ble.value -= 10;
+let or = document.getElementById("or")
+or.value -= 40;
+let troupe = document.getElementById("troupe")
+troupe.value -= 30;
 
-let mapClick = document.getElementById("map").addEventListener("click", mapClick);
-
-let inventoryClick = document.getElementById("inventory").addEventListener("click", inventoryClick);
-
-function clickCity()
-{
-    console.log("Ville");
-}
-mapClick
-{
-    console.log("Carte");
-}
-inventoryClick
-{
-    console.log("Inventaire");
-}
