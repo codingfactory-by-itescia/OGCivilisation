@@ -4,6 +4,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;
 }
+/*ressources*/
 header
 {
     display: flex;
@@ -21,7 +22,7 @@ header
     height: 50px;
     width: 50px;
 }
-
+/*bouttons du menu*/
 .container {
     display: flex;
     flex-direction: column;
@@ -47,6 +48,7 @@ header
     background-color: rgb(250, 218, 74);
     color: rgb(0, 0, 0);
 }
+/*écran de jeu*/
 .GameScreen{
     position: absolute;
     top: 45%;
@@ -55,7 +57,7 @@ header
     background-color: #a33535;
     color: black;
     font-size: 16px;
-    padding: 16px 10px;
+    padding: 10px 10px;
     border: none;
     border-radius: 5px;
     text-align: center;
@@ -64,7 +66,22 @@ header
     width: 650px;
     height: 450px;
 }
-/*page unité */
+.structureButton{
+    background-color: #a33535;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.structureButton:hover{
+    background-color: rgb(250, 218, 74);
+    color: rgb(0, 0, 0);
+}
+
+
+/*page unité*/
 .army{
     height: 150px;
     width: 150px;
