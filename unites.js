@@ -12,7 +12,7 @@ function troupes1(event) {
     setTimeout(() => {
         button1.disabled = false;
 
-      }, 3000)
+      }, 10000)
 
 }
 
@@ -30,7 +30,7 @@ function troupes2(event) {
     setTimeout(() => {
         button2.disabled = false;
 
-      }, 5000)
+      }, 30000)
 
 }
 
@@ -48,7 +48,7 @@ function troupes3(event) {
     setTimeout(() => {
         button3.disabled = false;
 
-      }, 10000)
+      }, 60000)
 
 }
 
@@ -66,7 +66,7 @@ function troupes4(event) {
     setTimeout(() => {
         button4.disabled = false;
 
-      }, 20000)
+      }, 600000)
 
 }
 

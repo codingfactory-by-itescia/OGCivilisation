@@ -1,23 +1,9 @@
-<<<<<<< Updated upstream
 body
 {
     background-image: url("Image/Fond.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
-=======
-body{
-    background-image: url("Image/fondJeu.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: initial;
-    background-position-y: initial;
-    background-repeat:initial ;
-    background-attachment: fixed;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
->>>>>>> Stashed changes
 }
 /*ressources*/
 header
@@ -107,7 +93,7 @@ h1{
 
 .unitScreen{
     position: absolute;
-    top: 25%;
+    top: 35%;
     left: 45%;
     transform: translate(-50%, -50%);
     background-color: #a33535;
@@ -119,7 +105,7 @@ h1{
 }
 .unitScreen2{
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 45%;
     transform: translate(-50%, -50%);
     background-color: #a33535;
@@ -132,7 +118,7 @@ h1{
 }
 .unitScreen3{
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 45%;
     transform: translate(-50%, -50%);
     background-color: #a33535;

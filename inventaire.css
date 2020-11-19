@@ -2,17 +2,7 @@ body{
     background-image: url("Image/Fond.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-<<<<<<< Updated upstream
     background-color: black;
-=======
-    background-position-x: initial;
-    background-position-y: initial;
-    background-repeat:initial ;
-    background-attachment: fixed;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
->>>>>>> Stashed changes
 }
 .container {
     display: flex;
