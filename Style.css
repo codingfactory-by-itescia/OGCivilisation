@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body{
     background-image: url("Image/fond.jpg");
     background-repeat: no-repeat;
@@ -10,14 +9,6 @@ body{
     background-origin: initial;
     background-clip: initial;
     background-color: initial;
-=======
-body
-{
-    background-image: url("Image/Fond.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: black;
->>>>>>> 62577ab7fb7b268ef3928f19a4d5f89376647d23
 }
 /*ressources*/
 header
