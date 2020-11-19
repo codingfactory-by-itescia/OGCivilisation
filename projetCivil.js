@@ -20,5 +20,45 @@ function progressBarSim(al) {
         finalMessage.innerHTML = "Process is complete";
       }
   }
-  var amountLoaded = 0;
-  progressBarSim(amountLoaded);
+var amountLoaded = 0;
+progressBarSim(amountLoaded);
+
+//bouton du sous menu de batiments
+let fond=document.getElementById("fond")
+let menu=document.getElementById("menu")
+
+let farmButton=document.getElementById("farm")
+farmButton.addEventListener("click", farmMenu)
+let caveButton=document.getElementById("cave")
+caveButton.addEventListener("click", caveMenu)
+let armyButton=document.getElementById("army")
+armyButton.addEventListener("click", armyMenu)
+
+//création des objets
+let farm={
+    fond: "Image/Farm.jpg",
+    menu : "ici la ferme"
+}
+let cave={
+    fond : "Image/cave.jpg",
+    menu : "ici la mine d'or"
+}
+let army={
+    fond : "Image/Caserne.jpg",
+    menu : "ici la caserne"
+}
+
+//fonction pour changer l'image et le menu
+function farmMenu(){
+    fond.src = farm.fond
+    menu.innerHTML = farm.menu
+    console.log(event.target.id)
+}
+function caveMenu(){
+    fond = cave.fond
+    menu = cave.menu
+}
+function armyMenu(){
+    fond.src = army.fond
+    menu.innerHTML = army.menu
+}
