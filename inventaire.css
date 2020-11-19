@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
+<<<<<<< HEAD
     background-position-x: initial;
     background-position-y: initial;
     background-repeat:initial ;
@@ -10,6 +11,8 @@ body{
     background-origin: initial;
     background-clip: initial;
     background-color: initial;
+=======
+>>>>>>> 62577ab7fb7b268ef3928f19a4d5f89376647d23
 }
 .container {
     display: flex;
