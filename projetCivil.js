@@ -35,15 +35,15 @@ armyButton.addEventListener("click", armyMenu)
 //création des objets
 let farm={
     fond: "Image/Farm.jpg",
-    menu : "ici la ferme"
+    menu : "Ici travaillent les agriculteurs, ils récoltent le blé et nourissent les animaux"
 }
 let cave={
     fond : "Image/cave.jpg",
-    menu : "ici la mine d'or"
+    menu : "Ici la mine, nos mineurs travaillent jours et nuits afin de collecter de l'or"
 }
 let army={
     fond : "Image/Caserne.jpg",
-    menu : "ici la caserne"
+    menu : "Ici sont entraînés nos valeureux soldats par Le Grand The Rock afin de partir aux combat et gagner nos batailles"
 }
 
 //fonction pour changer l'image et le menu
