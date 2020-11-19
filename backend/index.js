@@ -8,5 +8,5 @@ app.listen(port, () => {
 
 // respond with "hello world" when a GET request is made to the homepage
 app.get('/test', function(req, res) {
-  res.send('ça fonctionne');
+  res.send('ça fonctionne2');
 });
