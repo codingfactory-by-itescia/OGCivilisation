@@ -11,6 +11,9 @@ header
     display: flex;
     justify-content: space-around;
 }
+h1{
+    color: rgb(255, 231, 96);
+}
 .ble{
     height: 50px;
     width: 50px;
