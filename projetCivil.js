@@ -60,3 +60,15 @@ function armyMenu(){
     fond.src = army.fond
     menu.innerHTML = army.menu
 }
+
+let ui=document.getElementById("i");
+let text=document.getElementById("nop");
+ui.addEventListener("click", oi);
+
+function oi(event){
+    //console.log(event.target.id);
+    fetch("http://localhost:4000/test", {mode: 'no-cors'})
+    .then((Response)=>{
+        console.log(Response.body);
+    });
+}
