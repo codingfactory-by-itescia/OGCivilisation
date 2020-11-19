@@ -1,8 +1,9 @@
 body
 {
-    background-image: url("Image/fondJeu.jpg");
+    background-image: url("Image/Fond.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
 }
 /*ressources*/
 header
