@@ -21,6 +21,7 @@ header
     height: 50px;
     width: 50px;
 }
+
 .container {
     display: flex;
     flex-direction: column;
@@ -62,4 +63,49 @@ header
 .GameScreen .jeu{
     width: 650px;
     height: 450px;
+}
+/*page unité */
+.army{
+    height: 150px;
+    width: 150px;
+}
+
+.unitScreen{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    background-color: #a33535;
+    color: black;
+    font-size: 16px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.unitScreen2{
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    background-color: #a33535;
+    color: black;
+    font-size: 20px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.unitScreen3{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    background-color: #a33535;
+    color: black;
+    font-size: 20px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
 }
