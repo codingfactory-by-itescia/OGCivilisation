@@ -32,6 +32,7 @@ caveButton.addEventListener("click", caveMenu)
 let armyButton=document.getElementById("army")
 armyButton.addEventListener("click", armyMenu)
 
+
 //création des objets
 let farm={
     fond: "Image/Farm.jpg",

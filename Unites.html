@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+<<<<<<< Updated upstream
     <head>
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="Style.css">
@@ -29,35 +30,92 @@
             <img class="army" src="./Image/pyroBarbare.jpg">
             <img class="army" src="./Image/Vikings.jpg">
             
+=======
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caserne</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="ble" src="./Image/blé.png">
+>>>>>>> Stashed changes
         </div>
-        
-        <div class="unitScreen2">
-            Mars 2021
-            <br>
-            <img class="army" src="./Image/archer.jpg">
-            <img class="army" src="./Image/Rogue.jpeg">
-            <img class="army" src="./Image/Lancier.jpg">
-            <img class="army" src="./Image/mage.png">
-            <img class="army" src="./Image/Guerrier_noir.jpg">
+        <div>
+            <img class="or" src="./Image/gold.png">
         </div>
-        <div class="unitScreen3">
-            À venir prochainement
-            <br>
-            <img class="army" src="./Image/Kensei.jpg">
-            <img class="army" src="./Image/assassin.jpg">
-            <img class="army" src="./Image/nobushi.jpg">
-            <img class="army" src="./Image/grenade.jpg">
-            <img class="army" src="./Image/Shugoki.jpg">
+        <div>
+            <img class="troupe" src="./Image/army.png">
+        </div>
+    </header>
+    <h1>OGCivilisation</h1>
+
+    <div class="unitScreen">
+        <div id="persos">
+            <img src="./Image/Archer_viking.png" width="19.35%" height="120px">
+            <img src="./Image/Thorfin.jpg" width="19.35%" height="120px">
+            <img src="./Image/Valkyrie.jpg" width="19.35%" height="120px">
+            <img src="./Image/pyroBarbare.jpg" width="19.35%" height="120px">
+            <img src="./Image/Vikings.jpg" width="19.35%" height="120px">
+        </div>
+        <div id="buttons">
+            <button class="taille" id="archers">archers</button>
+            <button class="taille" id="assassins">assassins</button>
+            <button class="taille" id="valkyries">valkyries</button>
+            <button class="taille" id="pyros">pyroBarbare</button>
+            <button class="taille" id="vikings">vikings</button>
+        </div>
+        <div id="texte">
+            <p id="archer1">0</p>
+            <p id="assassin1">0</p>
+            <p id="valkyrie1">0</p>
+            <p id="pyro1">0</p>
+            <p id="viking1">0</p>
+
         </div>
 
-        <div class="container">
-            <button type="button" id="city" class="button" onclick= "window.location.href = 'Projet-Civil.html'"> Ville </button>
-            <button type="button" id="map" class="button" onclick= "window.location.href = 'map.html'" >Map monde</button>
-            <button type="button" id="inventory" class="button" onclick= "window.location.href = 'inventory.html'">Inventaire</button>
-        </div>
 
-            
-        <footer>
-        </footer>
-    </body>
+
+
+    </div>
+
+    <div class="unitScreen2">
+        Mars 2021
+        <br>
+        <img class="army" src="./Image/archer.jpg">
+        <img class="army" src="./Image/Rogue.jpeg">
+        <img class="army" src="./Image/Lancier.jpg">
+        <img class="army" src="./Image/mage.png">
+        <img class="army" src="./Image/Guerrier_noir.jpg">
+    </div>
+    <div class="unitScreen3">
+        À venir prochainement
+        <br>
+        <img class="army" src="./Image/Kensei.jpg">
+        <img class="army" src="./Image/assassin.jpg">
+        <img class="army" src="./Image/nobushi.jpg">
+        <img class="army" src="./Image/grenade.jpg">
+        <img class="army" src="./Image/Shugoki.jpg">
+    </div>
+
+    <div class="container">
+        <button type="button" id="city" class="button" onclick="window.location.href = 'Projet-Civil.html'">
+            Ville
+        </button>
+        <button type="button" id="map" class="button" onclick="window.location.href = 'map.html'">Map
+            monde</button>
+        <button type="button" id="inventory" class="button"
+            onclick="window.location.href = 'inventory.html'">Inventaire</button>
+    </div>
+
+
+    <footer>
+    </footer>
+</body>
+<script src="unites.js"></script>
+
 </html>

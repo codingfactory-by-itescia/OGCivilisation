@@ -2,7 +2,17 @@ body{
     background-image: url("Image/Fond.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+<<<<<<< Updated upstream
     background-color: black;
+=======
+    background-position-x: initial;
+    background-position-y: initial;
+    background-repeat:initial ;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+>>>>>>> Stashed changes
 }
 .container {
     display: flex;
@@ -31,9 +41,85 @@ body{
     color: rgb(0, 0, 0);
   }
 
-#GameScreen {
-    background-color: aqua;
-    display: flex;
-    /*justify-content: space-between;*/
-    width: 45%;
+
+
+.GameScreen {
+    background-color: blue;
 }
+
+
+.ble{
+    width: 150px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: #a33535;
+    color: black;
+    font-size: 16px;
+    padding: 16px 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.or{
+    width: 150px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(60%, -50%);
+    background-color: #a33535;
+    color: black;
+    font-size: 16px;
+    padding: 16px 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.troupe{
+    width: 150px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(170%, -50%);
+    background-color: #a33535;
+    color: black;
+    font-size: 16px;
+    padding: 16px 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.banniere{
+    width: 150px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, 60%);
+    background-color: #a33535;
+    color: black;
+    font-size: 16px;
+    padding: 16px 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.diamant{
+    width: 150px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(60%, 60%);
+    background-color: #a33535;
+    color: black;
+    font-size: 16px;
+    padding: 16px 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+

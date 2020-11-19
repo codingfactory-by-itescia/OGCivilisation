@@ -1,9 +1,23 @@
+<<<<<<< Updated upstream
 body
 {
     background-image: url("Image/Fond.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
+=======
+body{
+    background-image: url("Image/fondJeu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-repeat:initial ;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+>>>>>>> Stashed changes
 }
 /*ressources*/
 header
@@ -87,8 +101,8 @@ h1{
 
 /*page unité*/
 .army{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
 }
 
 .unitScreen{
@@ -102,11 +116,10 @@ h1{
     padding: 10px 10px;
     border: none;
     border-radius: 5px;
-    text-align: center;
 }
 .unitScreen2{
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 45%;
     transform: translate(-50%, -50%);
     background-color: #a33535;
@@ -129,4 +142,12 @@ h1{
     border: none;
     border-radius: 5px;
     text-align: center;
+}
+
+.taille {
+    width: 19.35%;
+}
+
+.texte {
+    justify-content: space-between;
 }
