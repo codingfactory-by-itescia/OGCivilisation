@@ -16,8 +16,6 @@ function progressBarSim(al) {
         status.innerHTML = "100%";
         bar.value = 100;
         clearTimeout(sim);
-        var finalMessage = document.getElementById('finalMessage');
-        finalMessage.innerHTML = "Process is complete";
       }
   }
 var amountLoaded = 0;

@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family:'Segoe UI', 'Roboto',
+      'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+      'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: rgb(23, 30, 34);
+  }
+  
+  code {
+    font-family: 'Courier New',
+      monospace;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header {
+    text-align: center;
+    color: rgb(252, 216, 169);
+    font-weight: 300;
+    margin: 0;
+  }
+  
+  .subheader {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    width: 100%;
+    display: block;
+  }
+  
+  .characterBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .characterBox h2 {
+    transition: all 0.3s ease-out;
+    text-align: center;
+    color: rgb(213, 202, 255);
+    font-style: italic;
+    font-weight: 500;
+  }
+  
+  .characterBox:hover h2 {
+    color: rgb(191, 255, 241);
+  }
+  
+  .characterBox img {
+    transition: all 0.3s ease-out;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+.img {
+  height: 963px ;
+  width: 602px;
+}
+
+.army{
+  height: 50px;
+  width: 50px;
+}
