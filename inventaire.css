@@ -1,7 +1,8 @@
 body{
-    background-image: url("Image/entrepot.jpg");
+    background-image: url("Image/Fond.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
 }
 .container {
     display: flex;
