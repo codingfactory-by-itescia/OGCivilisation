@@ -5,21 +5,21 @@ or.value -= 40;
 let troupe = document.getElementById("troupe")
 troupe.value -= 30;
 
-function progressBarSim(al) {
-    var bar = document.getElementById('barble');
-    var status = document.getElementById('status');
+/*function progressBarSim(al) {
+    let bar = document.getElementById('barble');
+    let status = document.getElementById('status');
     status.innerHTML = al+"%";
     bar.value = al;
     al++;
-      var sim = setTimeout("progressBarSim("+al+")",300);
+      let sim = setTimeout("progressBarSim("+al+")",300);
       if(al == 100){
         status.innerHTML = "100%";
         bar.value = 100;
         clearTimeout(sim);
       }
   }
-var amountLoaded = 0;
-progressBarSim(amountLoaded);
+let amountLoaded = 0;
+progressBarSim(amountLoaded);*/
 
 //bouton du sous menu de batiments
 let fond=document.getElementById("fond")
@@ -50,11 +50,10 @@ let army={
 function farmMenu(){
     fond.src = farm.fond
     menu.innerHTML = farm.menu
-    console.log(event.target.id)
 }
 function caveMenu(){
-    fond = cave.fond
-    menu = cave.menu
+    fond.src = cave.fond
+    menu.innerHTML = cave.menu
 }
 function armyMenu(){
     fond.src = army.fond
