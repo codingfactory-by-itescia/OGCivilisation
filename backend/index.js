@@ -17,6 +17,9 @@ app.get('/api/user', (req, res) => {
   verification(idFinal, res);
 
 });
+app.get('/api/user/construction', (req, res) => {
+  test();
+});
 
 
 const verification = (idFinal, res) => {
@@ -34,4 +37,7 @@ const verification = (idFinal, res) => {
       res && res.send("found")
     }
   });
+}
+const test = () => {
+  console.log("oui");
 }

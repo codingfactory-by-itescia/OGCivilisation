@@ -1,4 +1,6 @@
+const idConstructionEnCour = "";
 const button1 = document.getElementById("archers");
+/*const button1 = document.getElementById("archers");
 const archer = document.getElementById("archer1");
 let i = 0;
 
@@ -76,4 +78,23 @@ button1.addEventListener('click', creationTroupe);
 button2.addEventListener('click', creationTroupe);
 button3.addEventListener('click', creationTroupe);
 button4.addEventListener('click', creationTroupe);
-button5.addEventListener('click', creationTroupe);
+button5.addEventListener('click', creationTroupe);*/
+
+
+
+
+const buildUrl = (idConstructionEnCour) => {
+  const url = `http://localhost:4000/api/user/construction?construcion=${idConstructionEnCour}`;
+  return url;
+}
+
+function recuperationId(event) {
+  //console.log(event.target.id);
+  fetch(buildUrl(idConstructionEnCour.textContent))
+    .then(r => r.text())
+    .then((Response) => {
+      console.log(Response);
+    });
+}
+
+button1.addEventListener('click', recuperationId);
