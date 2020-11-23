@@ -1,6 +1,5 @@
-const idConstructionEnCour = "";
+const idTroupe = "";
 const button1 = document.getElementById("archers");
-/*const button1 = document.getElementById("archers");
 const archer = document.getElementById("archer1");
 let i = 0;
 
@@ -21,7 +20,7 @@ const viking = document.getElementById("viking1");
 let q = 0;
 
 
-const creationTroupe = (event) => {
+/*const creationTroupe = (event) => {
   switch (event.target.id) {
     case "archers":
 
@@ -83,15 +82,17 @@ button5.addEventListener('click', creationTroupe);*/
 
 
 
-const buildUrl = (idConstructionEnCour) => {
-  const url = `http://localhost:4000/api/user/construction?construcion=${idConstructionEnCour}`;
+const buildUrl = (idTroupe, nombre) => {
+  idTroupe = "archers";
+  nombre = 3;
+  const url = `http://localhost:4000/api/construction?type=${idTroupe}&nombre=${nombre}`;
   return url;
 }
 
 function recuperationId(event) {
   //console.log(event.target.id);
-  fetch(buildUrl(idConstructionEnCour.textContent))
-    .then(r => r.text())
+  fetch(buildUrl(idTroupe.textContent))
+    .then(r => r.json())
     .then((Response) => {
       console.log(Response);
     });
