@@ -1,4 +1,5 @@
 const idTroupe = "";
+const nombre = "";
 const button1 = document.getElementById("archers");
 const archer = document.getElementById("archer1");
 let i = 0;
@@ -83,15 +84,18 @@ button5.addEventListener('click', creationTroupe);*/
 
 
 const buildUrl = (idTroupe, nombre) => {
-  idTroupe = "archers";
-  nombre = 3;
+  // idTroupe = "archers";
+  // nombre = 3;
   const url = `http://localhost:4000/api/construction?type=${idTroupe}&nombre=${nombre}`;
   return url;
 }
 
 function recuperationId(event) {
-  //console.log(event.target.id);
-  fetch(buildUrl(idTroupe.textContent))
+  console.log(event.target.id);
+  const idTroupe = event.target.id;
+  const nombre = 3;
+  const url = buildUrl(idTroupe, nombre);
+  fetch(url)
     .then(r => r.json())
     .then((Response) => {
       console.log(Response);
@@ -99,3 +103,7 @@ function recuperationId(event) {
 }
 
 button1.addEventListener('click', recuperationId);
+button2.addEventListener('click', recuperationId);
+button3.addEventListener('click', recuperationId);
+button4.addEventListener('click', recuperationId);
+button5.addEventListener('click', recuperationId);
